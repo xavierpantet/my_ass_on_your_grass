@@ -18,6 +18,7 @@ files/
 !.gitignore
 !*.conf
 !*.md
+!*.zip
 
 # IDE files
 cmake-build-debug/
