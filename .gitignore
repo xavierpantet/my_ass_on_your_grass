@@ -19,6 +19,7 @@
 !*.conf
 !*.md
 !*.zip
+!*.pdf
 
 # IDE files
 cmake-build-debug/
