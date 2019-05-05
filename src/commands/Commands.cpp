@@ -671,6 +671,7 @@ string Commands::cmd_logout(string, unsigned int socket){
     return "Logout successful!";
 }
 
-string Commands::cmd_exit(string, unsigned int){
+string Commands::cmd_exit(string, unsigned int socket){
+    auth.logout(socket);
     return str_bye;
 }
