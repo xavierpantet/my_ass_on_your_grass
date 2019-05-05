@@ -6,7 +6,7 @@
 # not ignoring the content of subdirectories
 !*/
 .build/
-files/
+./files/
 
 # not ignoring cpp files
 !*.cpp
