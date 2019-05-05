@@ -50,7 +50,7 @@ Commands::Commands(const Configuration config): conf(config), auth(config) {
     try {
         //set the path to the file directory
         path = get_files_path(config);
-    } catch (Exception e){
+    } catch (Exception &e){
         //if path directory is not valid
         e.print_error();
         cout << "Base directory in the config is wrong!" << endl;
